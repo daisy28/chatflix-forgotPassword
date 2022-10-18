@@ -1,0 +1,37 @@
+
+.masthead{
+     background-image: url('/img/Movie Thumnails.svg'), radial-gradient(#fff, #030B19);
+     background-size: cover;
+     background-position: initial;
+     backdrop-filter: contrast(180deg);
+     min-height: 100vh;
+}
+
+.form-div{
+     width: 500px;
+     height: 500px;
+}
+
+.form{
+     width: 300px;
+}
+
+.form-img{
+     left: 25px;
+     width: 20px;
+     height: 20px;
+}
+
+.btn:hover{
+     background-color: #1151b1;
+}
+
+@media screen and (max-width:768px) {
+     .section{
+          display: flex;
+          align-items: center;
+     }
+     .form-div{
+          margin-right: 0% !important;
+     }
+}
