@@ -1,6 +1,6 @@
 
 .masthead{
-     background-image: url('/img/Movie Thumnails.svg'), radial-gradient(#fff, #030B19);
+     background-image: url('../img/Movie Thumnails.svg'), radial-gradient(#fff, #030B19);
      background-size: cover;
      background-position: initial;
      backdrop-filter: contrast(180deg);
