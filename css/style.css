@@ -1,10 +1,12 @@
-
-.masthead{
-     background-image: url('../img/Movie Thumnails.svg'), radial-gradient(#fff, #030B19);
+.carousel-item{
+     height: 100vh;
+     background-repeat: no-repeat;
      background-size: cover;
-     background-position: initial;
-     backdrop-filter: contrast(180deg);
-     min-height: 100vh;
+}
+
+.carousel-item > img{
+     width: 100%;
+     object-fit: cover;
 }
 
 .form-div{
@@ -22,6 +24,10 @@
      height: 20px;
 }
 
+.section{
+     top: 70px;
+}
+
 .btn:hover{
      background-color: #1151b1;
 }
@@ -30,6 +36,7 @@
      .section{
           display: flex;
           align-items: center;
+          
      }
      .form-div{
           margin-right: 0% !important;

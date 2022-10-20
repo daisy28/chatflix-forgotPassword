@@ -14,6 +14,8 @@ $custom-theme-colors: (
    "cancel": #BBC2CD,
    "text-color": #8E9AAC,
    "btn-color": #206CDF,
+   "gradient": rgba(1, 2, 5, 0.795),
+   rgba(1, 2, 5, 0.596)
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
