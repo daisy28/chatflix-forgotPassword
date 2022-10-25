@@ -24,6 +24,26 @@
      height: 20px;
 }
 
+.input-div span{
+     position: absolute;
+     pointer-events: none;
+     left: 40px;
+     top: 8px;
+     transition: .7s;
+}
+
+.input-div input:focus{
+     border: 1px solid #206CDF !important;
+}
+
+.input-div input:valid ~ span,
+.input-div input:focus ~ span{
+     color: #206CDF !important;
+     transform: translateX(-25px) translateY(-20px);
+     padding: 0 .4rem;
+     background-color: #030B19;
+}
+
 .section{
      top: 70px;
 }
